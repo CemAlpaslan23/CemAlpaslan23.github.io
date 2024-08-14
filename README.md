@@ -7,13 +7,9 @@ Minor Degree in Finance at Sabanci University
 
 ### Projects
 Vehicle Routing Problem with Adjusted K-Means Clustering Algorithm (April 2024 – May 2024)
-
 •	The logistics company delivers goods to customer locations on the Anatolian side of Istanbul with 32 vehicles, 2 of which are trucks, 30 of which are vans, and trucks and vans have different capacities. Instead of using all 32 vehicles, the company aims to have one vehicle visit a maximum of 35 customer points per day, with a goal of reducing the number of vehicles used and thus improving the total cost and the total distance traveled.
-
 •	Latitude, longitude and demand values of customer locations in the dataset provided by the company were used in the project.
-
 •	K-means clustering function was developed for ensuring non-empty clusters and used to establish 32 clusters with all available vehicles which includes all customer locations based on their geographical coordinates with kmeans2 function from the SciPy library.
-
 •	Since the resulting clusters were created only with the k-means function, a new function was developed to evaluate the demand-capacity conditions and the conditions for a cluster to contain a maximum of 35 points.
 •	Clusters which were created with k-means function were sorted from largest to smallest according to their demand values, and the clusters with the highest demand values were planned to be assigned to trucks and the remaining ones to vans.
 •	Clusters which are exceeding the vehicle capacity and maximum number of nodes per cluster were divided into sub-clusters, with ensuring that not exceeding the vehicle capacity and number of points. Established subclusters were defined as big and small according to the number of customers in the clusters, and big and small clusters were merged. 
