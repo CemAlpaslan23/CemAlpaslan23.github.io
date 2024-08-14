@@ -1,9 +1,9 @@
 # Industrial Engineer
 
 ### Education
-###M.Sc. Industrial Engineering at Curtin University
-###B.S. Industrial Engineering at Sabanci University
-###Minor Degree in Finance at Sabanci University
+M.Sc. Industrial Engineering at Curtin University
+B.S. Industrial Engineering at Sabanci University
+Minor Degree in Finance at Sabanci University
 
 ### Projects
 Vehicle Routing Problem with Adjusted K-Means Clustering Algorithm (April 2024 – May 2024)
