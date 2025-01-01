@@ -1,44 +1,47 @@
 # Industrial Engineer
 
 ### Education
--M.Sc. Industrial Engineering at Curtin University
 
--B.S. Industrial Engineering at Sabanci University
-
--Minor Degree in Finance at Sabanci University
+- **M.Sc. Industrial Engineering** at Curtin University  
+- **B.S. Industrial Engineering** at Sabanci University  
+- **Minor Degree in Finance** at Sabanci University  
 
 ### Projects
-Vehicle Routing Problem with Adjusted K-Means Clustering Algorithm (April 2024 – May 2024)
-•	The logistics company delivers goods to customer locations on the Anatolian side of Istanbul with 32 vehicles, 2 of which are trucks, 30 of which are vans, and trucks and vans have different capacities. Instead of using all 32 vehicles, the company aims to have one vehicle visit a maximum of 35 customer points per day, with a goal of reducing the number of vehicles used and thus improving the total cost and the total distance traveled.
-•	Latitude, longitude and demand values of customer locations in the dataset provided by the company were used in the project.
-•	K-means clustering function was developed for ensuring non-empty clusters and used to establish 32 clusters with all available vehicles which includes all customer locations based on their geographical coordinates with kmeans2 function from the SciPy library.
-•	Since the resulting clusters were created only with the k-means function, a new function was developed to evaluate the demand-capacity conditions and the conditions for a cluster to contain a maximum of 35 points.
-•	Clusters which were created with k-means function were sorted from largest to smallest according to their demand values, and the clusters with the highest demand values were planned to be assigned to trucks and the remaining ones to vans.
-•	Clusters which are exceeding the vehicle capacity and maximum number of nodes per cluster were divided into sub-clusters, with ensuring that not exceeding the vehicle capacity and number of points. Established subclusters were defined as big and small according to the number of customers in the clusters, and big and small clusters were merged. 
-•	With the adjusted k-means Algorithm, the number of clusters, which was initially 32, was reduced to 28, and a significant improvement was made in the number of vehicles used and the total cost.
-•	Established clusters were visualized with the Matplotlib library and the necessary print sections which shows the cluster information were added to the project.
-•	Traveling Salesman Problem (TSP) mathematical model was established by identifying the sets, the parameters, the decision variables, the objective function and the constraints with a goal of minimizing the total distance traveled and the total cost.
-•	Established clusters with the adjusted k-means algorithm were inserted into the TSP mathematical model code to find the optimal visiting sequence for each cluster. TSP mathematical model was coded by using python as a programming language and Gurobi was used as an optimization solver.
-•	Formed routes were visualized by using the Matplotlib dictionary.
 
-Genetic Algorithm for Parallel Machine Scheduling (Feb 2024 – April 2024)
-•	Genetic algorithm is a well-known metaheuristic algorithm which inspired by the process of natural selection that iteratively evolves a population of candidate solutions using operations like crossover and mutation to find approximate solution to complex problems.
-•	Genetic Algorithm was developed and coded by using python as a programming language and libraries such as Pandas, NumPy and Matplotlib were used with a goal of minimizing the total tardiness of jobs for a pharmaceutical company by considering processing times, setup times, due dates, order quantities, machine working times and machine capacities.
-•	Fitness function in the algorithm was designed to minimize job tardiness and additional function was developed to evaluate different genetic algorithm parameters such as population size, mutation rate, and number of generations, and to select optimal parameters to achieve the best scheduling performance.
-•	Genetic algorithm was run to evolve job schedules over multiple generations. Crossover and mutation operations were developed according to the requirements of the algorithm to generate new offspring. Additional function was implemented to check machine capacities and working times for every generation.
-•	Gantt Chart was created to visualize job assignments on machines, displaying start times and end times of each job for each machine. Print section which includes each jobs start time, completion time and tardiness values were added to the project.
+#### Vehicle Routing Problem with Adjusted K-Means Clustering Algorithm (April 2024 – May 2024)
 
-Vehicle Routing Problem with Time Windows and Backhaul Clusters (Dec 2023 – Jan 2024)
-•	Provided dataset which includes 44 customer locations (delivery points), 6 backhaul cluster locations (pickup points), and depot which are in the European side of the Istanbul, Latitude, Longitude, Demand, Vehicle Capacity, Backhaul Cluster Capacity, Cost of Each Vehicle, and Time Window values of those locations were evaluated, and Haversine Distance calculation method was used to determine the distances between customer locations.
-•	Mixed integer linear programming model was established by identifying the sets, the parameters, the decision variables, the objective function and the constraints with a goal of minimizing the total distance traveled and the total cost.
-•	Developed constraints ensured that each customer is visited exactly once, each route starts and ends at the depot, time window requirements, ensuring the vehicle capacity limitation and meeting customer demands, backhaul cluster requirements, ensuring that deliveries are done before pickups, and updating the load on the vehicle after the pickup and delivery operations, and legal working hours of each vehicle are not exceeded.
-•	Established mathematical model was coded by using python as a programming language. Libraries of Pandas, NumPy, Matplotlib, Geopy and Tkinter were used and Gurobi was used as an optimization solver in the project.
-•	Formed routes in the European side of the Istanbul were visualized by using the Matplotlib dictionary.
-•	2-opt Algorithm which is a local search algorithm that considers the possibility of reversing a segment of two edges between the established tours was coded for tour optimization with a goal of enhancing the efficiency of the initial solution.
-•	Total distance traveled by the Mathematical Model Solution was reduced by the 2-opt algorithm and established tours by the 2-opt algorithm were visualized by using the Matplotlib dictionary.
-•	Tkinter-based user interface for real-time visualization was implemented for allowing users to observe the routing process interactively. Next destination, previous destination, vehicle capacity, load on the vehicle, and delivered / picked up demand values were provided in the Tkinter-based user interface.
+- The logistics company delivers goods to customer locations on the Anatolian side of Istanbul with 32 vehicles, 2 of which are trucks, 30 of which are vans, and trucks and vans have different capacities. Instead of using all 32 vehicles, the company aims to have one vehicle visit a maximum of 35 customer points per day, with a goal of reducing the number of vehicles used and thus improving the total cost and the total distance traveled.
+- Latitude, longitude, and demand values of customer locations in the dataset provided by the company were used in the project.
+- K-means clustering function was developed for ensuring non-empty clusters and used to establish 32 clusters with all available vehicles, which includes all customer locations based on their geographical coordinates with `kmeans2` function from the SciPy library.
+- Since the resulting clusters were created only with the k-means function, a new function was developed to evaluate the demand-capacity conditions and the conditions for a cluster to contain a maximum of 35 points.
+- Clusters which were created with the k-means function were sorted from largest to smallest according to their demand values, and the clusters with the highest demand values were planned to be assigned to trucks and the remaining ones to vans.
+- Clusters exceeding the vehicle capacity and maximum number of nodes per cluster were divided into sub-clusters, ensuring that they did not exceed the vehicle capacity and number of points. Established subclusters were defined as big and small according to the number of customers in the clusters, and big and small clusters were merged.
+- With the adjusted K-means algorithm, the number of clusters, which was initially 32, was reduced to 28, and a significant improvement was made in the number of vehicles used and the total cost.
+- Established clusters were visualized with the Matplotlib library, and the necessary print sections which show the cluster information were added to the project.
+- Traveling Salesman Problem (TSP) mathematical model was established by identifying the sets, the parameters, the decision variables, the objective function, and the constraints with a goal of minimizing the total distance traveled and the total cost.
+- Established clusters with the adjusted K-means algorithm were inserted into the TSP mathematical model code to find the optimal visiting sequence for each cluster. TSP mathematical model was coded using Python, and Gurobi was used as an optimization solver.
+- Formed routes were visualized using the Matplotlib dictionary.
 
-Urban (Last-mile) Deliveries Using Autonomous Robots (Graduation Project) (Sept 2022 – June 2023)
+#### Genetic Algorithm for Parallel Machine Scheduling (Feb 2024 – April 2024)
+
+- Genetic algorithm is a well-known metaheuristic algorithm inspired by the process of natural selection that iteratively evolves a population of candidate solutions using operations like crossover and mutation to find approximate solutions to complex problems.
+- Genetic Algorithm was developed and coded using Python. Libraries such as Pandas, NumPy, and Matplotlib were used with a goal of minimizing the total tardiness of jobs for a pharmaceutical company by considering processing times, setup times, due dates, order quantities, machine working times, and machine capacities.
+- Fitness function in the algorithm was designed to minimize job tardiness, and an additional function was developed to evaluate different genetic algorithm parameters such as population size, mutation rate, and number of generations, and to select optimal parameters to achieve the best scheduling performance.
+- Genetic algorithm was run to evolve job schedules over multiple generations. Crossover and mutation operations were developed according to the requirements of the algorithm to generate new offspring. An additional function was implemented to check machine capacities and working times for every generation.
+- Gantt Chart was created to visualize job assignments on machines, displaying start times and end times of each job for each machine. Print sections including each job's start time, completion time, and tardiness values were added to the project.
+
+#### Vehicle Routing Problem with Time Windows and Backhaul Clusters (Dec 2023 – Jan 2024)
+
+- Provided dataset which includes 44 customer locations (delivery points), 6 backhaul cluster locations (pickup points), and a depot on the European side of Istanbul. Latitude, longitude, demand, vehicle capacity, backhaul cluster capacity, cost of each vehicle, and time window values of those locations were evaluated. Haversine distance calculation method was used to determine the distances between customer locations.
+- Mixed integer linear programming model was established by identifying the sets, the parameters, the decision variables, the objective function, and the constraints with a goal of minimizing the total distance traveled and the total cost.
+- Developed constraints ensured that each customer is visited exactly once, each route starts and ends at the depot, time window requirements are met, vehicle capacity limitation is enforced, customer demands are satisfied, backhaul cluster requirements are fulfilled, deliveries are done before pickups, vehicle loads are updated after pickup and delivery operations, and legal working hours of each vehicle are not exceeded.
+- The mathematical model was coded using Python. Libraries such as Pandas, NumPy, Matplotlib, Geopy, and Tkinter were used, and Gurobi was used as an optimization solver.
+- Formed routes on the European side of Istanbul were visualized using the Matplotlib dictionary.
+- 2-opt Algorithm, a local search algorithm, was coded for tour optimization with a goal of enhancing the efficiency of the initial solution.
+- Total distance traveled by the mathematical model solution was reduced by the 2-opt algorithm, and established tours by the 2-opt algorithm were visualized using the Matplotlib dictionary.
+- Tkinter-based user interface for real-time visualization was implemented, allowing users to observe the routing process interactively. Next destination, previous destination, vehicle capacity, load on the vehicle, and delivered/picked-up demand values were provided in the Tkinter-based user interface.
+
+#### Urban (Last-mile) Deliveries Using Autonomous Robots (Graduation Project) (Sept 2022 – June 2023)
 •	Diverse types of companies which are using electrical autonomous robots in their delivery process were investigated and some parameter values such as robot cargo capacity, cost of each robot, battery capacity of each robot, and energy consumption rate per kilometer were determined.
 •	The problem was looked from a routing viewpoint and deal with the problem as an extension of the well-known Vehicle Routing Problem (VRP) and integrated in the Sabanci University map.
 •	Provided dataset which includes 15 customer locations and depot, Latitude, Longitude, Demand, and Time Window values of those locations evaluated, and Haversine Distance calculation method was used to determine the distances between customer locations.
