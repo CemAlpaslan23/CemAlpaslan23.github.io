@@ -42,48 +42,48 @@
 - Tkinter-based user interface for real-time visualization was implemented, allowing users to observe the routing process interactively. Next destination, previous destination, vehicle capacity, load on the vehicle, and delivered/picked-up demand values were provided in the Tkinter-based user interface.
 
 #### Urban (Last-mile) Deliveries Using Autonomous Robots (Graduation Project) (Sept 2022 – June 2023)
-•	Diverse types of companies which are using electrical autonomous robots in their delivery process were investigated and some parameter values such as robot cargo capacity, cost of each robot, battery capacity of each robot, and energy consumption rate per kilometer were determined.
-•	The problem was looked from a routing viewpoint and deal with the problem as an extension of the well-known Vehicle Routing Problem (VRP) and integrated in the Sabanci University map.
-•	Provided dataset which includes 15 customer locations and depot, Latitude, Longitude, Demand, and Time Window values of those locations evaluated, and Haversine Distance calculation method was used to determine the distances between customer locations.
-•	Mixed integer linear programming model was established by identifying the sets, the parameters, the decision variables, the objective function and the constraints with a goal of minimizing the total distance traveled and the total cost.
-•	Developed constraints ensured that each customer is visited exactly once, each route starts and ends at the depot, time window requirements, ensuring the vehicle capacity limitation and meeting customer demands and battery capacity of the electrical vehicles are not violated.
-•	Established mathematical model was coded by using python as a programming language. Libraries of Pandas, NumPy, Matplotlib and Geopy were used and Gurobi was used as an optimization solver in the project.
-•	The problem was modeled and solved within the Sabanci University map, and formed routes were visualized by using the Matplotlib dictionary.
-•	Additionally, Savings Heuristic was adjusted by considering the vehicle capacity, battery capacity, and time window restrictions of the clients.
-•	The developed Savings Heuristic was coded using the python programming language.
-•	Heuristic Algorithm was modeled within the Sabanci University map, and formed routes were visualized by using the Matplotlib dictionary.
-•	The solution obtained by Mathematical Modelling and the solution obtained by Savings Heuristic were compared.
-•	Lastly, Savings Heuristic was tested on 10 large instances by using the Euclidean Distance calculation method.
+-	Diverse types of companies which are using electrical autonomous robots in their delivery process were investigated and some parameter values such as robot cargo capacity, cost of each robot, battery capacity of each robot, and energy consumption rate per kilometer were determined.
+-	The problem was looked from a routing viewpoint and deal with the problem as an extension of the well-known Vehicle Routing Problem (VRP) and integrated in the Sabanci University map.
+-	Provided dataset which includes 15 customer locations and depot, Latitude, Longitude, Demand, and Time Window values of those locations evaluated, and Haversine Distance calculation method was used to determine the distances between customer locations.
+-	Mixed integer linear programming model was established by identifying the sets, the parameters, the decision variables, the objective function and the constraints with a goal of minimizing the total distance traveled and the total cost.
+-	Developed constraints ensured that each customer is visited exactly once, each route starts and ends at the depot, time window requirements, ensuring the vehicle capacity limitation and meeting customer demands and battery capacity of the electrical vehicles are not violated.
+-	Established mathematical model was coded by using python as a programming language. Libraries of Pandas, NumPy, Matplotlib and Geopy were used and Gurobi was used as an optimization solver in the project.
+-	The problem was modeled and solved within the Sabanci University map, and formed routes were visualized by using the Matplotlib dictionary.
+-	Additionally, Savings Heuristic was adjusted by considering the vehicle capacity, battery capacity, and time window restrictions of the clients.
+-	The developed Savings Heuristic was coded using the python programming language.
+-	Heuristic Algorithm was modeled within the Sabanci University map, and formed routes were visualized by using the Matplotlib dictionary.
+-	The solution obtained by Mathematical Modelling and the solution obtained by Savings Heuristic were compared.
+-	Lastly, Savings Heuristic was tested on 10 large instances by using the Euclidean Distance calculation method.
 
-Mergers and Acquisitions Challenge (Sept 2022 – Jan 2023)
-•	The project was conducted with a group of 4 people and executed with the lead of ÜNLÜ & CO.
-•	Tat Gida which has a positive EBITDA value was selected from Borsa Istanbul.
-•	Short Investment Thesis presentation was created and presented.
-•	Discounted Cash Flow Valuation (DCF) method was used to value the Tat Gida by considering Tat Gida`s past 5-year performance, and DCF valuation work was done by using MS Excel.  
-•	The project was evaluated by ÜNLÜ & CO.
+#### Mergers and Acquisitions Challenge (Sept 2022 – Jan 2023)
+-	The project was conducted with a group of 4 people and executed with the lead of ÜNLÜ & CO.
+-	Tat Gida which has a positive EBITDA value was selected from Borsa Istanbul.
+-	Short Investment Thesis presentation was created and presented.
+-	Discounted Cash Flow Valuation (DCF) method was used to value the Tat Gida by considering Tat Gida`s past 5-year performance, and DCF valuation work was done by using MS Excel.  
+-	The project was evaluated by ÜNLÜ & CO.
 
-Savings Algorithm for TSP and VRP (Sept 2022 – Jan 2023)
-•	The project was modeled by using the programming language python.
-•	Savings Algorithm is a widely known heuristic which is used for solving large traveling salesman problems (TSP) and vehicle routing problems (VRP) was selected.
-•	The provided data set which contains the demand, distance, x and y coordinates of  the 25 customers was used.
-•	Savings Algorithm was modeled and coded for solving the established vehicle routing problem of the provided dataset.
-•	The resulting routes achieved by the Savings Algorithm were visualized using the Matplotlib library.
+#### Savings Algorithm for TSP and VRP (Sept 2022 – Jan 2023)
+-	The project was modeled by using the programming language python.
+-	Savings Algorithm is a widely known heuristic which is used for solving large traveling salesman problems (TSP) and vehicle routing problems (VRP) was selected.
+-	The provided data set which contains the demand, distance, x and y coordinates of  the 25 customers was used.
+-	Savings Algorithm was modeled and coded for solving the established vehicle routing problem of the provided dataset.
+-	The resulting routes achieved by the Savings Algorithm were visualized using the Matplotlib library.
 
-Detecting of the Fraudulent Activities in eBay Auctions (Sept 2022 – Jan 2023)
-•	The project was conducted with a group of 5 people using the python programming language.
-•	Shill Bidding Dataset was used as a main dataset which mainly includes features of the popular products for the eBay auctions.
-•	The purpose of the project was to observe and analyze the effect of the given attributes in the dataset of different biddings to detect the fraud in eBay auctions and try to build a machine learning model to classify fraudulent activities in an auction.
-•	Statistical analysis and hypothesis testing methods was used on the dataset to see the effect of the features on the label.
-•	Statistical analysis methods such as correlation calculation and visualization of the data, selection of the existing features and creation of the new features was done.
-•	Data scaler methods was used to see the impact of the features of the bidding on the classification of the type of bidding as normal behavior or fraudulent behavior and to provide the normalization of the data.
-•	Different machine learning algorithms such as Logistic Regression, Decision Tree, Random Forest, and XG Boost was used to generate a classifier model.
-•	The efficiency of the generated models was evaluated with the relevant metrics for the problem.
-•	Hyperparameter tuning was done for increasing the efficiency of the selected classifier model with the selected machine learning algorithm.
+#### Detecting of the Fraudulent Activities in eBay Auctions (Sept 2022 – Jan 2023)
+-	The project was conducted with a group of 5 people using the python programming language.
+-	Shill Bidding Dataset was used as a main dataset which mainly includes features of the popular products for the eBay auctions.
+-	The purpose of the project was to observe and analyze the effect of the given attributes in the dataset of different biddings to detect the fraud in eBay auctions and try to build a machine learning model to classify fraudulent activities in an auction.
+-	Statistical analysis and hypothesis testing methods was used on the dataset to see the effect of the features on the label.
+-	Statistical analysis methods such as correlation calculation and visualization of the data, selection of the existing features and creation of the new features was done.
+-	Data scaler methods was used to see the impact of the features of the bidding on the classification of the type of bidding as normal behavior or fraudulent behavior and to provide the normalization of the data.
+-	Different machine learning algorithms such as Logistic Regression, Decision Tree, Random Forest, and XG Boost was used to generate a classifier model.
+-	The efficiency of the generated models was evaluated with the relevant metrics for the problem.
+-	Hyperparameter tuning was done for increasing the efficiency of the selected classifier model with the selected machine learning algorithm.
 
-Warehouse Operations in a Tire-Manufacturing Factory  (Sept 2021 – Jan 2022)
-•	The project was modeled by using Arena Simulation Software with a group of 4 people.
-•	Identified the corresponding entities, attributes, resources, system states, queues, events, activities, and delays given a warehouse operation in a tire-manufacturing company.
-•	Performed input analysis using the Input Analyzer tool of ARENA, and hence identified the corresponding mathematical distributions given past data for the check-in and check-out times of customers.
-•	Performed pilot runs (i.e., replications) using the ARENA model.
-•	Performed output analysis using the Output Analyzer tool of ARENA. Thereby, built 95% confidence intervals for two different alternative models.
-•	Conducted a statistical comparison between two different alternative models using a Paired-T Test. Thereby, compared the two alternatives and selected the better one.
+#### Warehouse Operations in a Tire-Manufacturing Factory  (Sept 2021 – Jan 2022)
+-	The project was modeled by using Arena Simulation Software with a group of 4 people.
+-	Identified the corresponding entities, attributes, resources, system states, queues, events, activities, and delays given a warehouse operation in a tire-manufacturing company.
+-	Performed input analysis using the Input Analyzer tool of ARENA, and hence identified the corresponding mathematical distributions given past data for the check-in and check-out times of customers.
+-	Performed pilot runs (i.e., replications) using the ARENA model.
+-	Performed output analysis using the Output Analyzer tool of ARENA. Thereby, built 95% confidence intervals for two different alternative models.
+-	Conducted a statistical comparison between two different alternative models using a Paired-T Test. Thereby, compared the two alternatives and selected the better one.
