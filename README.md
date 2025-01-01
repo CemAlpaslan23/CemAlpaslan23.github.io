@@ -3,8 +3,8 @@
 ### Education
 
 - **M.Sc. Industrial Engineering at Curtin University**  
-- **B.S. Industrial Engineering at Sabanci University**  
-- **Minor Degree in Finance at Sabanci University**  
+- **B.S. Industrial Engineering at Sabancı University**  
+- **Minor Degree in Finance at Sabancı University**  
 
 ### Projects
 
