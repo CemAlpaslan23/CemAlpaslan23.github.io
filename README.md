@@ -7,7 +7,19 @@
 - **Minor Degree in Finance at Sabancı University**  
 
 ### Projects
+
 #### Portfolio Optimisation for Metal and Mining Commodities in Australian Market
+
+- Collected daily adjusted closing price data from Yahoo Finance (`yfinance`) for the period 2021–2025. The portfolio consisted of 11 assets including BHP.AX, FMG.AX, RIO.AX, EVN.AX, NST.AX, IGO.AX, PLS.AX, LTR.AX, SFR.AX, SVL.AX, and gold (GC=F).  
+- Preprocessed the dataset by removing outliers using Z-scores, handling missing values, and computing log returns to capture continuous compounding of asset prices.  
+- Conducted exploratory data analysis (EDA) by plotting price trends, trading volumes, distribution of returns, volatility patterns, and correlation matrices across assets to assess diversification potential.  
+- Implemented the **Mean-Variance Model (Markowitz Portfolio Optimisation)** to construct the Efficient Frontier, identify minimum-variance portfolios, and determine the Tangency Portfolio with the maximum Sharpe ratio.  
+- Developed the **Black–Litterman Model** by blending market equilibrium returns with subjective investor views, generating more stable and diversified allocations compared to traditional mean-variance optimisation.  
+- Applied the **Risk Parity Portfolio** approach to equalise risk contributions of all assets, preventing over-allocation to highly volatile mining equities and ensuring balanced diversification.  
+- Formulated a **Conditional Value-at-Risk (CVaR) Optimisation Model** to minimise downside risk, focusing on extreme negative returns beyond the Value-at-Risk threshold, suitable for risk-averse investors.  
+- Compared the performance of all four models (Markowitz, Black–Litterman, Risk Parity, CVaR) across metrics such as expected returns, volatility, risk contribution, and tail-risk exposure.  
+- Visualised results using the Efficient Frontier, allocation weight plots, and CVaR tail-loss distributions to provide clear insights into model differences.
+  
 #### Vehicle Routing Problem with Adjusted K-Means Clustering Algorithm (April 2024 – May 2024)
 
 - The logistics company delivers goods to customer locations on the Anatolian side of Istanbul with 32 vehicles, 2 of which are trucks, 30 of which are vans, and trucks and vans have different capacities. Instead of using all 32 vehicles, the company aims to have one vehicle visit a maximum of 35 customer points per day, with a goal of reducing the number of vehicles used and thus improving the total cost and the total distance traveled.
