@@ -7,7 +7,7 @@
 - **Minor Degree in Finance at Sabancı University**  
 
 ### Projects
-
+#### Portfolio Optimisation for Metal and Mining Commodities in Australian Market
 #### Vehicle Routing Problem with Adjusted K-Means Clustering Algorithm (April 2024 – May 2024)
 
 - The logistics company delivers goods to customer locations on the Anatolian side of Istanbul with 32 vehicles, 2 of which are trucks, 30 of which are vans, and trucks and vans have different capacities. Instead of using all 32 vehicles, the company aims to have one vehicle visit a maximum of 35 customer points per day, with a goal of reducing the number of vehicles used and thus improving the total cost and the total distance traveled.
