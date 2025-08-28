@@ -2,5 +2,15 @@ title: Cem Alpaslan
 logo: /github.png.jpg
 description: "Industrial Engineer | Projects Website"
 theme: jekyll-theme-minimal
-include:
-  - assets/css/style.css
+
+# Özel CSS için
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Bu kısım önemli
+custom_css: assets/css/style.css
