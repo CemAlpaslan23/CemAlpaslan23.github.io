@@ -1,7 +1,7 @@
 title: Cem Alpaslan
 logo: /github.png.jpg
 
-description: |
+description: 
   Operations Research | Optimisation
 
   📍 Perth, Western Australia
@@ -13,5 +13,5 @@ description: |
   📧 Sabancı: cemalpaslan@alumni.sabanciuniv.edu
 
 
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-minimal
 
