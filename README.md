@@ -5,13 +5,13 @@
 
 - **M.Sc. Industrial Engineering**  
   Curtin University, Perth Western Australia *(2024 – 2026)*  
-
+------------------------------------------------------------
 - **B.S. Industrial Engineering**  
   Sabancı University, Istanbul Turkey *(2018 – 2023)*  
-
+------------------------------------------------------------
 - **Minor in Finance**  
   Sabancı University, Istanbul Turkey *(2020 – 2023)*
-  
+------------------------------------------------------------  
 
 ### Projects
 
