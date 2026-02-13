@@ -1,16 +1,16 @@
-# Operations Research & Optimisation Enthusiast
+# Operations Research & Optimisation
 ### About Me
 
 ### Education
 
 - **M.Sc. Industrial Engineering**  
-  Curtin University *(2024 – 2026)*  
+  Curtin University, Perth Western Australia *(2024 – 2026)*  
 
 - **B.S. Industrial Engineering**  
-  Sabancı University *(2018 – 2023)*  
+  Sabancı University, Istanbul Turkey *(2018 – 2023)*  
 
 - **Minor in Finance**  
-  Sabancı University *(2020 – 2023)*
+  Sabancı University, Istanbul Turkey *(2020 – 2023)*
   
 
 ### Projects
