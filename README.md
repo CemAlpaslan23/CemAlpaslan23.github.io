@@ -17,10 +17,13 @@ I am committed to continuous learning and highly motivated to further develop my
 - **Minor in Finance**  
   Sabancı University, Istanbul/Turkey *(2020 – 2023)*
  
-
 ### Projects
 
-#### Portfolio Optimisation for Metal and Mining Commodities in Australian Market
+### Routing Optimisation for an Australian Freight Firm (Master’s Thesis - Ongoing) 	 January 2026 – June2026 
+
+### Drill and Blast Optimisation for Open-pit Mines (Master’s Project) 	 July 2025 – November 2025
+
+#### Portfolio Optimisation in Australian Mining and Metals (Master’s Project) 	 February 2025 – June 2025
 
 - Collected daily adjusted closing price data from Yahoo Finance (`yfinance`) for the period 2021–2025. The portfolio consisted of 11 assets including BHP.AX, FMG.AX, RIO.AX, EVN.AX, NST.AX, IGO.AX, PLS.AX, LTR.AX, SFR.AX, SVL.AX, and gold (GC=F).  
 - Preprocessed the dataset by removing outliers using Z-scores, handling missing values, and computing log returns to capture continuous compounding of asset prices.  
@@ -32,7 +35,7 @@ I am committed to continuous learning and highly motivated to further develop my
 - Compared the performance of all four models (Markowitz, Black–Litterman, Risk Parity, CVaR) across metrics such as expected returns, volatility, risk contribution, and tail-risk exposure.  
 - Visualised results using the Efficient Frontier, allocation weight plots, and CVaR tail-loss distributions to provide clear insights into model differences.
   
-#### Vehicle Routing Problem with Adjusted K-Means Clustering Algorithm (April 2024 – May 2024)
+#### Vehicle Routing Optimisation with Capacity-Aware K-Means Clustering	April 2024 – May 2024
 
 - The logistics company delivers goods to customer locations on the Anatolian side of Istanbul with 32 vehicles, 2 of which are trucks, 30 of which are vans, and trucks and vans have different capacities. Instead of using all 32 vehicles, the company aims to have one vehicle visit a maximum of 35 customer points per day, with a goal of reducing the number of vehicles used and thus improving the total cost and the total distance traveled.
 - Latitude, longitude, and demand values of customer locations in the dataset provided by the company were used in the project.
@@ -46,7 +49,7 @@ I am committed to continuous learning and highly motivated to further develop my
 - Established clusters with the adjusted K-means algorithm were inserted into the TSP mathematical model code to find the optimal visiting sequence for each cluster. TSP mathematical model was coded using Python, and Gurobi was used as an optimization solver.
 - Formed routes were visualized using the Matplotlib dictionary.
 
-#### Genetic Algorithm for Parallel Machine Scheduling (Feb 2024 – April 2024)
+#### Optimisation of Parallel Machine Scheduling using Genetic Algorithm	February 2024 – April 2024
 
 - Genetic algorithm is a well-known metaheuristic algorithm inspired by the process of natural selection that iteratively evolves a population of candidate solutions using operations like crossover and mutation to find approximate solutions to complex problems.
 - Genetic Algorithm was developed and coded using Python. Libraries such as Pandas, NumPy, and Matplotlib were used with a goal of minimizing the total tardiness of jobs for a pharmaceutical company by considering processing times, setup times, due dates, order quantities, machine working times, and machine capacities.
@@ -54,7 +57,7 @@ I am committed to continuous learning and highly motivated to further develop my
 - Genetic algorithm was run to evolve job schedules over multiple generations. Crossover and mutation operations were developed according to the requirements of the algorithm to generate new offspring. An additional function was implemented to check machine capacities and working times for every generation.
 - Gantt Chart was created to visualize job assignments on machines, displaying start times and end times of each job for each machine. Print sections including each job's start time, completion time, and tardiness values were added to the project.
 
-#### Vehicle Routing Problem with Time Windows and Backhaul Clusters (Dec 2023 – Jan 2024)
+#### Vehicle Routing Optimisation with Backhaul Clusters	December 2023 – January 2024
 
 - Provided dataset which includes 44 customer locations (delivery points), 6 backhaul cluster locations (pickup points), and a depot on the European side of Istanbul. Latitude, longitude, demand, vehicle capacity, backhaul cluster capacity, cost of each vehicle, and time window values of those locations were evaluated. Haversine distance calculation method was used to determine the distances between customer locations.
 - Mixed integer linear programming model was established by identifying the sets, the parameters, the decision variables, the objective function, and the constraints with a goal of minimizing the total distance traveled and the total cost.
@@ -65,7 +68,8 @@ I am committed to continuous learning and highly motivated to further develop my
 - Total distance traveled by the mathematical model solution was reduced by the 2-opt algorithm, and established tours by the 2-opt algorithm were visualized using the Matplotlib dictionary.
 - Tkinter-based user interface for real-time visualization was implemented, allowing users to observe the routing process interactively. Next destination, previous destination, vehicle capacity, load on the vehicle, and delivered/picked-up demand values were provided in the Tkinter-based user interface.
 
-#### Urban (Last-mile) Deliveries Using Autonomous Robots (Graduation Project) (Sept 2022 – June 2023)
+#### Last-mile Deliveries Using Autonomous Robots (Graduation Project)	September 2022 – June 2023
+
 -	Diverse types of companies which are using electrical autonomous robots in their delivery process were investigated and some parameter values such as robot cargo capacity, cost of each robot, battery capacity of each robot, and energy consumption rate per kilometer were determined.
 -	The problem was looked from a routing viewpoint and deal with the problem as an extension of the well-known Vehicle Routing Problem (VRP) and integrated in the Sabanci University map.
 -	Provided dataset which includes 15 customer locations and depot, Latitude, Longitude, Demand, and Time Window values of those locations evaluated, and Haversine Distance calculation method was used to determine the distances between customer locations.
@@ -79,21 +83,9 @@ I am committed to continuous learning and highly motivated to further develop my
 -	The solution obtained by Mathematical Modelling and the solution obtained by Savings Heuristic were compared.
 -	Lastly, Savings Heuristic was tested on 10 large instances by using the Euclidean Distance calculation method.
 
-#### Mergers and Acquisitions Challenge (Sept 2022 – Jan 2023)
--	The project was conducted with a group of 4 people and executed with the lead of ÜNLÜ & CO.
--	Tat Gida which has a positive EBITDA value was selected from Borsa Istanbul.
--	Short Investment Thesis presentation was created and presented.
--	Discounted Cash Flow Valuation (DCF) method was used to value the Tat Gida by considering Tat Gida`s past 5-year performance, and DCF valuation work was done by using MS Excel.  
--	The project was evaluated by ÜNLÜ & CO.
 
-#### Savings Algorithm for TSP and VRP (Sept 2022 – Jan 2023)
--	The project was modeled by using the programming language python.
--	Savings Algorithm is a widely known heuristic which is used for solving large traveling salesman problems (TSP) and vehicle routing problems (VRP) was selected.
--	The provided data set which contains the demand, distance, x and y coordinates of  the 25 customers was used.
--	Savings Algorithm was modeled and coded for solving the established vehicle routing problem of the provided dataset.
--	The resulting routes achieved by the Savings Algorithm were visualized using the Matplotlib library.
+#### Detecting Fraudulent Activities in eBay Auctions	September 2022 – January 2023
 
-#### Detecting of the Fraudulent Activities in eBay Auctions (Sept 2022 – Jan 2023)
 -	The project was conducted with a group of 5 people using the python programming language.
 -	Shill Bidding Dataset was used as a main dataset which mainly includes features of the popular products for the eBay auctions.
 -	The purpose of the project was to observe and analyze the effect of the given attributes in the dataset of different biddings to detect the fraud in eBay auctions and try to build a machine learning model to classify fraudulent activities in an auction.
@@ -104,7 +96,8 @@ I am committed to continuous learning and highly motivated to further develop my
 -	The efficiency of the generated models was evaluated with the relevant metrics for the problem.
 -	Hyperparameter tuning was done for increasing the efficiency of the selected classifier model with the selected machine learning algorithm.
 
-#### Warehouse Operations in a Tire-Manufacturing Factory  (Sept 2021 – Jan 2022)
+#### Warehouse Operations in Tire Manufacturing Company	September 2021 – January 2022
+
 -	The project was modeled by using Arena Simulation Software with a group of 4 people.
 -	Identified the corresponding entities, attributes, resources, system states, queues, events, activities, and delays given a warehouse operation in a tire-manufacturing company.
 -	Performed input analysis using the Input Analyzer tool of ARENA, and hence identified the corresponding mathematical distributions given past data for the check-in and check-out times of customers.
