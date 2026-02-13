@@ -19,10 +19,14 @@ I am committed to continuous learning and highly motivated to further develop my
  
 ### Projects
 
-### Routing Optimisation for an Australian Freight Firm (Master’s Thesis - Ongoing) 	 January 2026 – June2026 
+#### Routing Optimisation for an Australian Freight Firm (Master’s Thesis - Ongoing) 	 January 2026 – June2026 
 
-### Drill and Blast Optimisation for Open-pit Mines (Master’s Project) 	 July 2025 – November 2025
+- Collected.
+  
+#### Drill and Blast Optimisation for Open-pit Mines (Master’s Project) 	 July 2025 – November 2025
 
+- Collected.
+  
 #### Portfolio Optimisation in Australian Mining and Metals (Master’s Project) 	 February 2025 – June 2025
 
 - Collected daily adjusted closing price data from Yahoo Finance (`yfinance`) for the period 2021–2025. The portfolio consisted of 11 assets including BHP.AX, FMG.AX, RIO.AX, EVN.AX, NST.AX, IGO.AX, PLS.AX, LTR.AX, SFR.AX, SVL.AX, and gold (GC=F).  
