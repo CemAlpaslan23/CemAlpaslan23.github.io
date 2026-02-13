@@ -1,10 +1,17 @@
-# Industrial Engineer
+# Operations Research & Optimisation Enthusiast
+### About Me
 
 ### Education
 
-- **M.Sc. Industrial Engineering at Curtin University**  
-- **B.S. Industrial Engineering at Sabancı University**  
-- **Minor Degree in Finance at Sabancı University**  
+- **M.Sc. Industrial Engineering**  
+  Curtin University *(2024 – 2026)*  
+
+- **B.S. Industrial Engineering**  
+  Sabancı University *(2018 – 2023)*  
+
+- **Minor in Finance**  
+  Sabancı University *(2020 – 2023)*
+  
 
 ### Projects
 
