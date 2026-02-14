@@ -92,21 +92,20 @@ I am committed to continuous learning and highly motivated to further develop my
 
 #### Detecting Fraudulent Activities in eBay Auctions	September 2022 – January 2023
 
--	The project was conducted with a group of 5 people using the python programming language.
--	Shill Bidding Dataset was used as a main dataset which mainly includes features of the popular products for the eBay auctions.
--	The purpose of the project was to observe and analyze the effect of the given attributes in the dataset of different biddings to detect the fraud in eBay auctions and try to build a machine learning model to classify fraudulent activities in an auction.
--	Statistical analysis and hypothesis testing methods was used on the dataset to see the effect of the features on the label.
--	Statistical analysis methods such as correlation calculation and visualization of the data, selection of the existing features and creation of the new features was done.
--	Data scaler methods was used to see the impact of the features of the bidding on the classification of the type of bidding as normal behavior or fraudulent behavior and to provide the normalization of the data.
--	Different machine learning algorithms such as Logistic Regression, Decision Tree, Random Forest, and XG Boost was used to generate a classifier model.
--	The efficiency of the generated models was evaluated with the relevant metrics for the problem.
--	Hyperparameter tuning was done for increasing the efficiency of the selected classifier model with the selected machine learning algorithm.
+-	Developed a machine learning-based fraud detection system for eBay auctions using Python and the Shill Bidding Dataset which includes features of the popular products for the eBay auctions.
+-	The purpose of the project was to observe and analyze the effect of the given attributes in the dataset of different biddings to detect the fraud in eBay auctions and try to build a machine learning model to classify fraudulent activities in an eBay auction.
+-	Performed exploratory data analysis (EDA), including correlation analysis, data visualization, and feature engineering to identify patterns associated with fraudulent bidding behaviour.
+-	Conducted statistical analysis and hypothesis testing to evaluate the impact of bidding attributes on fraud classification.
+-	Applied data preprocessing techniques, including feature scaling and normalization, to improve model performance and ensure consistent feature representation.
+-	Implemented and compared multiple classification algorithms, including Logistic Regression, Decision Tree, Random Forest, and XGBoost, to detect fraudulent auction activities.
+-	Evaluated model performance using appropriate classification metrics (e.g., accuracy, precision, recall, F1-score, ROC-AUC).
+-	Performed hyperparameter tuning to optimise model performance and select the most effective classifier.
 
 #### Warehouse Operations in Tire Manufacturing Company	September 2021 – January 2022
 
--	The project was modeled by using Arena Simulation Software with a group of 4 people.
--	Identified the corresponding entities, attributes, resources, system states, queues, events, activities, and delays given a warehouse operation in a tire-manufacturing company.
--	Performed input analysis using the Input Analyzer tool of ARENA, and hence identified the corresponding mathematical distributions given past data for the check-in and check-out times of customers.
--	Performed pilot runs (i.e., replications) using the ARENA model.
--	Performed output analysis using the Output Analyzer tool of ARENA. Thereby, built 95% confidence intervals for two different alternative models.
--	Conducted a statistical comparison between two different alternative models using a Paired-T Test. Thereby, compared the two alternatives and selected the better one.
+-	Developed a discrete-event simulation model of warehouse operations in a tire manufacturing company using Arena Simulation Software.
+-	Defined system components including entities, attributes, resources, system states, queues, events, activities, and delays to accurately represent operational processes.
+-	Conducted input data analysis using Arena Input Analyzer to fit appropriate probability distributions for customer check-in and check-out times based on historical data.
+-	Performed pilot simulation runs (replications) to evaluate system behaviour and model performance.
+-	Performed output analysis using the Output Analyzer tool of Arena and built 95% confidence intervals for performance measures of two alternative system designs.
+-	Applied a paired t-test statistical comparison to evaluate alternative models and identify the superior operational configuration.
