@@ -21,7 +21,8 @@ I am committed to continuous learning and highly motivated to further develop my
 
 #### Routing Optimisation for an Australian Freight Firm (Master’s Thesis - Ongoing) 	 January 2026 – June2026 
 
-- Collected.
+- Currently developing routing optimisation strategies for an Australian freight company to improve operational efficiency under real-world logistical constraints.
+- Developing a cost-minimizing mathematical model for a multi-trip pickup and delivery vehicle routing problem with vehicle rental, capacity, time window, distance, and inventory constraints and designing efficient solution algorithm for large-scale real-world instances.
   
 #### Drill and Blast Optimisation for Open-pit Mines (Master’s Project) 	 July 2025 – November 2025
 
@@ -29,15 +30,16 @@ I am committed to continuous learning and highly motivated to further develop my
   
 #### Portfolio Optimisation in Australian Mining and Metals (Master’s Project) 	 February 2025 – June 2025
 
-- Collected daily adjusted closing price data from Yahoo Finance (`yfinance`) for the period 2021–2025. The portfolio consisted of 11 assets including BHP.AX, FMG.AX, RIO.AX, EVN.AX, NST.AX, IGO.AX, PLS.AX, LTR.AX, SFR.AX, SVL.AX, and gold (GC=F).  
-- Preprocessed the dataset by removing outliers using Z-scores, handling missing values, and computing log returns to capture continuous compounding of asset prices.  
-- Conducted exploratory data analysis (EDA) by plotting price trends, trading volumes, distribution of returns, volatility patterns, and correlation matrices across assets to assess diversification potential.  
-- Implemented the Mean-Variance Model (Markowitz Portfolio Optimisation) to construct the Efficient Frontier, identify minimum-variance portfolios, and determine the Tangency Portfolio with the maximum Sharpe ratio.  
-- Developed the Black–Litterman Model by blending market equilibrium returns with subjective investor views, generating more stable and diversified allocations compared to traditional mean-variance optimisation.  
-- Applied the Risk Parity Portfolio approach to equalise risk contributions of all assets, preventing over-allocation to highly volatile mining equities and ensuring balanced diversification.  
-- Formulated a Conditional Value-at-Risk (CVaR) Optimisation Model to minimise downside risk, focusing on extreme negative returns beyond the Value-at-Risk threshold, suitable for risk-averse investors.  
-- Compared the performance of all four models (Markowitz, Black–Litterman, Risk Parity, CVaR) across metrics such as expected returns, volatility, risk contribution, and tail-risk exposure.  
-- Visualised results using the Efficient Frontier, allocation weight plots, and CVaR tail-loss distributions to provide clear insights into model differences.
+- Collected daily financial data from Yahoo Finance for the period 2021–2025. The portfolio consisted of 11 assets including BHP.AX, FMG.AX, RIO.AX, EVN.AX, NST.AX, IGO.AX, PLS.AX, LTR.AX, SFR.AX, SVL.AX, and GOLD.AX (GC=F).  
+- Preprocessed the dataset by removing outliers using Z-score filtering, handling missing values, and computing log returns to capture continuously compounded asset returns.  
+- Performed exploratory data analysis (EDA), including price trend visualisation, trading volume analysis, return distributions, volatility patterns, and correlation matrices to evaluate diversification potential.  
+- Implemented the Mean-Variance Model (Markowitz Portfolio Optimisation) to construct the Efficient Frontier, identify minimum-variance portfolios, and determine the Tangency Portfolio with the maximum sharpe ratio.  
+- Developed the Black–Litterman Model by integrating market equilibrium returns with subjective investor views, generating more stable and diversified allocations compared to traditional mean-variance optimisation.  
+- Applied the Risk Parity Portfolio approach to equalise asset risk contributions preventing over-concentration in highly volatile mining equities and improving diversification balance.  
+- Formulated a Conditional Value-at-Risk (CVaR) Optimisation Model to minimise downside risk by controlling extreme losses beyond the Value-at-Risk threshold, suitable for risk-averse investors  
+- Compared the performance of all four models (Markowitz, Black–Litterman, Risk Parity, CVaR) across key metrics such as expected returns, volatility, risk contribution, and tail-risk exposure.  
+- Visualised results using the Efficient Frontier, portfolio allocation weight charts, and CVaR tail-loss distributions to clearly illustrate model differences.
+- Provided investment strategy insights for investors who are interested in mining and commodity-focused financial assests.
   
 #### Vehicle Routing Optimisation with Capacity-Aware K-Means Clustering	April 2024 – May 2024
 
