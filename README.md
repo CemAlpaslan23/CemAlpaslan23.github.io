@@ -8,13 +8,13 @@ I am committed to continuous learning and highly motivated to further develop my
 
 ### Education
 
-- *M.Sc. Industrial Engineering**  
+- **M.Sc. Industrial Engineering**  
   Curtin University, Perth/Western Australia *(2024 – 2026)*  
 
-- *B.S. Industrial Engineering**  
+- **B.S. Industrial Engineering**  
   Sabancı University, Istanbul/Turkey *(2018 – 2023)*  
 
-- *Minor in Finance**  
+- **Minor in Finance**  
   Sabancı University, Istanbul/Turkey *(2020 – 2023)*
  
 ### Projects
