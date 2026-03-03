@@ -1,6 +1,6 @@
 # Operations Research & Optimisation Graduate
 ### About Me
-I hold a BSc in Industrial Engineering with a minor in Finance from Sabancı University and an MSc in Industrial Engineering from Curtin University, with a strong focus and technical background in operations research and optimisation. I specialise in mathematical modelling, algorithm development, and the implementation of heuristic and meta-heuristic methods to solve complex real-world optimisation problems.
+I hold a BSc in Industrial Engineering with a minor in Finance (Quantitative and Actuarial Finance) from Sabancı University and an MSc in Industrial Engineering from Curtin University, with a strong focus and technical background in operations research and optimisation. I specialise in mathematical modelling, algorithm development, and the implementation of heuristic and meta-heuristic methods to solve complex real-world optimisation problems.
 
 My academic and project work focuses on logistics, production systems, scheduling, and financial optimisation, with a current emphasis on operations research applications in the mining, energy, and transportation sectors. Beyond this, I am passionate about learning and integrating machine learning and artificial intelligence techniques to develop advanced analytics solutions for real-world optimisation challenges. Furthermore, I am passionate about improving my programming skills and learning new languages and tools.
 
