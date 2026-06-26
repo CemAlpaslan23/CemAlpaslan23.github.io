@@ -21,8 +21,9 @@ I am committed to continuous learning and highly motivated to further develop my
 
 #### Routing Optimisation for Freight Operations (Master’s Thesis - Ongoing) 	 January 2026 – June2026 
 
-- Currently developing routing optimisation strategies for an Australian freight company to improve operational efficiency under real-world logistical constraints.
-- Developing a cost-minimizing mathematical model for a multi-trip pickup and delivery vehicle routing problem with vehicle rental, capacity, time window, distance, and inventory constraints and designing efficient solution algorithm for large-scale real-world instances.
+- Developed a mixed-integer linear programming model for a multi-trip pickup and delivery vehicle routing problem with heterogenous fleet, vehicle rental, time windows, cross-docking, inventory and capacity constraints.
+- Implemented the developed mathematical model in Python  using Gurobi, applying tight Big-M formulations, arc pre-elimination, and advanced solver parameter tuning, and solved synthetic two-day planning instances with three heterogeneous vehicle types.
+- Extending the project by developing a Genetic Algorithm for solving large-scale real-world routing problems. Collaborating with my supervisors to prepare my first journal publication, commencing next semester.
   
 #### Drill and Blast Optimisation for Open-pit Mines (Master’s Project) 	 July 2025 – November 2025
 
